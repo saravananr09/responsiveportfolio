@@ -1,0 +1,96 @@
+
+      @import url(https://fonts.googleapis.com/css?family=Roboto);
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: 'Roboto', sans-serif;
+      }
+
+      .title {  font-size: 2.5em; text-align: center; }
+
+      .box { min-height: 150px; }
+    
+      .dark_blue {
+        background-color: #2A457A;
+        color: #efefef;
+      }
+
+      .light_blue {
+        background-color: #099DD9;
+      }
+
+      .green {
+        background-color: #0C8542;
+      }
+      .red {
+        background-color: #EC1D3B;
+      }
+
+      .orange {
+        background-color: #F79420;
+      }
+    
+
+    img {
+      /* display: flex; */
+       max-width: 100%;
+      max-height: 100%;
+      
+    }
+    .font-in {
+      font-size: 25px;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .box {
+      width: 100%;
+    }
+
+    /* @media screen and (min-width: 400px) {
+      
+    } */
+    @media screen and (min-width: 450px) {
+      .light_blue, .green {
+        width: 50%;
+      }
+    }
+    @media screen and (min-width: 450px)
+    {
+      .red {
+        width: 100%;
+      }
+      .orange {
+        width: 100%;
+      }
+    }  
+    @media screen and (min-width: 550px)
+    {
+      .red {
+        width: 50%;
+      }
+      .orange {
+        width: 50%;
+      }
+    } 
+    @media screen and (min-width: 768px)
+    {
+     .container {
+      width: 768px;
+      margin: auto;
+      
+     }
+    } 
+    @media screen and (min-width: 1280px)
+    {
+     .container {
+      width: 1280px;
+      margin: auto;
+     }
+     
+    } 
